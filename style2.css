@@ -1,0 +1,22 @@
+.btn-modern {
+    width: 100px;
+    height: 50px;
+    margin: 20px;
+    background-color: coral;
+    color: lightseagreen;
+}
+
+
+.btn-modern:hover {
+    animation: change  2s;
+}
+
+@keyframes change {
+    
+    100% {
+    transform: translateY(-5px);
+    box-shadow: 5px 5px #6a524a;
+    background-color: #ffc300;
+    color: #6a524a;
+    }
+}
